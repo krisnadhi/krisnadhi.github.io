@@ -79,8 +79,7 @@ Who were involved in the 1990 World Chess Championship Match?</cpannotationschem
     <!-- http://w3id.org/daselab/onto/event#freshProp1 -->
 
     <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/event#freshProp1">
-        <rdfs:comment>This property is artificially generated in order to express the following rule in OWL:  :Event(?x) ^ :providesParticipantRole(?x,?p) ^ :subEventOf(?x,?y) -&gt; :providesParticipantRole(?y,?p).
-
+        <rdfs:comment>This property is artificially generated in order to express the following rule in OWL:  :Event(?x) ^ :providesParticipantRole(?x,?p) ^ :subEventOf(?x,?y) -&gt; :providesParticipantRole(?y,?p). 
 The rule is translated into two axioms: 
 1. :Event SubClassOf: :freshProp1 some Self 
 2.  inverse (:subEventOf) o :freshProp1 o :providesParticipantRole SubPropertyOf: : :providesParticipantRole</rdfs:comment>
@@ -93,7 +92,6 @@ The rule is translated into two axioms:
 
     <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/event#freshProp2">
         <rdfs:comment>This property is artificially generated in order to express the following rule in OWL:  :Event(?x) ^ :hasSpatioTemporalExtent(?x,?w) ^ :subEventOf(?x,?y) ^ :Event(?y) ^ :hasSpatioTemporalExtent(?y,?z) -&gt; :subSpatioTemporalExtentOf(?w,?z).
-
 The rule is translated into two axioms: 
 1. :Event SubClassOf: :freshProp2 some Self 
 2. inverse (:hasSpatioTemporalExtent) o :freshProp2 o :subEventOf o :freshProp2 o :hasSpatioTemporalExtent SubPropertyOf: :subSpatioTemporalExtentOf</rdfs:comment>
@@ -258,8 +256,7 @@ The rule is translated into two axioms:
     <!-- http://w3id.org/daselab/onto/event#InformationObject -->
 
     <owl:Class rdf:about="http://w3id.org/daselab/onto/event#InformationObject">
-        <rdfs:comment>An entity that encapsulates all descriptive or non-defining information of the corresponding event, e.g., names, additional identifiers, textual descriptions, etc.</rdfs:comment>
-        <rdfs:comment>Should normally be aligned to a separate Information Object pattern.</rdfs:comment>
+        <rdfs:comment>An entity that encapsulates all descriptive or non-defining information of the corresponding event, e.g., names, additional identifiers, textual descriptions, etc. Should normally be aligned to a separate Information Object pattern.</rdfs:comment>
         <rdfs:label>InformationObject</rdfs:label>
     </owl:Class>
     
@@ -268,8 +265,7 @@ The rule is translated into two axioms:
     <!-- http://w3id.org/daselab/onto/event#ParticipantRole -->
 
     <owl:Class rdf:about="http://w3id.org/daselab/onto/event#ParticipantRole">
-        <rdfs:comment>Every ParticipantRole represents a reified relationship between an event and one of its participants.</rdfs:comment>
-        <rdfs:comment>Should normally be aligend to a separate Participant-Role pattern.</rdfs:comment>
+        <rdfs:comment>Every ParticipantRole represents a reified relationship between an event and one of its participants. Should normally be aligend to a separate Participant-Role pattern.</rdfs:comment>
         <rdfs:label>ParticipantRole</rdfs:label>
     </owl:Class>
     
@@ -278,8 +274,7 @@ The rule is translated into two axioms:
     <!-- http://w3id.org/daselab/onto/event#SpatioTemporalExtent -->
 
     <owl:Class rdf:about="http://w3id.org/daselab/onto/event#SpatioTemporalExtent">
-        <rdfs:comment>Hook to a complex notion representing a unified spatial and temporal extent. Intended to cover non-static or discontinuous spatiotemporal extent.</rdfs:comment>
-        <rdfs:comment>Should be aligned to a separate Spatiotemporal Extent pattern.</rdfs:comment>
+        <rdfs:comment>Hook to a complex notion representing a unified spatial and temporal extent. Intended to cover non-static or discontinuous spatiotemporal extent. Should be aligned to a separate Spatiotemporal Extent pattern.</rdfs:comment>
         <rdfs:label>SpatioTemporalExtent</rdfs:label>
     </owl:Class>
     
