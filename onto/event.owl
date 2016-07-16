@@ -14,7 +14,7 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
     <owl:Ontology rdf:about="http://w3id.org/daselab/onto/event">
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"/>
-        <cpannotationschema:relatedCPs>SpatioTemporalExtent, ParticipantRole, AgentRole, Objectrole, InformationObject, Information realization</cpannotationschema:relatedCPs>
+        <cpannotationschema:relatedCPs>SpatioTemporalExtent, ParticipantRole, AgentRole, Objectrole, Information realization</cpannotationschema:relatedCPs>
         <cpannotationschema:hasIntent>The purpose of this pattern is to provide a minimalistic model of event where it is not always possible to separate its spatial and the temporal aspects, thus can model events that move or possess discontinuous temporal extent. Events according to this model has at least one participant, attached via a participant-role, and may have additional descriptive information through its information object.</cpannotationschema:hasIntent>
         <dc:creator>Adila Krisnadhi, Pascal Hitzler</dc:creator>
         <cpannotationschema:hasConsequences>This pattern can model moving events and events with discontinuous temporal extents, provided an appropriate spatiotemporal extent model is used. This pattern, however, does not facilitate modeling complex relationships between events, such as causality, provenance, or correlation</cpannotationschema:hasConsequences>
