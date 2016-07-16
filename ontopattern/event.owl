@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.w3id.org/daselabpatterncollection/event#"
-     xml:base="http://www.w3id.org/daselabpatterncollection/event"
+<rdf:RDF xmlns="http://w3id.org/daselabpatterncollection/event#"
+     xml:base="http://w3id.org/daselabpatterncollection/event"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,9 +8,8 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:event="http://www.w3id.org/daselabpatterncollection/event#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
-    <owl:Ontology rdf:about="http://www.w3id.org/daselabpatterncollection/event"/>
+    <owl:Ontology rdf:about="http://w3id.org/daselabpatterncollection/event"/>
     
 
 
@@ -31,9 +30,9 @@
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#DASE_RULE -->
+    <!-- http://w3id.org/daselabpatterncollection/event#DASE_RULE -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#DASE_RULE"/>
+    <owl:AnnotationProperty rdf:about="http://w3id.org/daselabpatterncollection/event#DASE_RULE"/>
     
 
 
@@ -48,92 +47,92 @@
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#freshProp1 -->
+    <!-- http://w3id.org/daselabpatterncollection/event#freshProp1 -->
 
-    <owl:ObjectProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp1"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp1"/>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#freshProp2 -->
+    <!-- http://w3id.org/daselabpatterncollection/event#freshProp2 -->
 
-    <owl:ObjectProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp2"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp2"/>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#freshProp3 -->
+    <!-- http://w3id.org/daselabpatterncollection/event#freshProp3 -->
 
-    <owl:ObjectProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp3"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp3"/>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#hasInformationObject -->
+    <!-- http://w3id.org/daselabpatterncollection/event#hasInformationObject -->
 
-    <owl:ObjectProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#hasInformationObject"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselabpatterncollection/event#hasInformationObject"/>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent -->
+    <!-- http://w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent -->
 
-    <owl:ObjectProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#providesParticipantRole -->
+    <!-- http://w3id.org/daselabpatterncollection/event#providesParticipantRole -->
 
-    <owl:ObjectProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#providesParticipantRole">
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselabpatterncollection/event#providesParticipantRole">
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description>
-                <owl:inverseOf rdf:resource="http://www.w3id.org/daselabpatterncollection/event#subEventOf"/>
+                <owl:inverseOf rdf:resource="http://w3id.org/daselabpatterncollection/event#subEventOf"/>
             </rdf:Description>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp1"/>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp1"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
+        <owl:annotatedSource rdf:resource="http://w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#propertyChainAxiom"/>
         <owl:annotatedTarget rdf:parseType="Collection">
             <rdf:Description>
-                <owl:inverseOf rdf:resource="http://www.w3id.org/daselabpatterncollection/event#subEventOf"/>
+                <owl:inverseOf rdf:resource="http://w3id.org/daselabpatterncollection/event#subEventOf"/>
             </rdf:Description>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp1"/>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp1"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
         </owl:annotatedTarget>
         <DASE_RULE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R1___:Event(?x) ^ :providesParticipantRole(?x,?p) ^ :subEventOf(?x,?y) -&gt; :providesParticipantRole(?y,?p)___</DASE_RULE>
     </owl:Axiom>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#subEventOf -->
+    <!-- http://w3id.org/daselabpatterncollection/event#subEventOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#subEventOf"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselabpatterncollection/event#subEventOf"/>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#subSpatioTemporalExtentOf -->
+    <!-- http://w3id.org/daselabpatterncollection/event#subSpatioTemporalExtentOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.w3id.org/daselabpatterncollection/event#subSpatioTemporalExtentOf">
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselabpatterncollection/event#subSpatioTemporalExtentOf">
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description>
-                <owl:inverseOf rdf:resource="http://www.w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
+                <owl:inverseOf rdf:resource="http://w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
             </rdf:Description>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp2"/>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#subEventOf"/>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp3"/>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp2"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#subEventOf"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp3"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.w3id.org/daselabpatterncollection/event#subSpatioTemporalExtentOf"/>
+        <owl:annotatedSource rdf:resource="http://w3id.org/daselabpatterncollection/event#subSpatioTemporalExtentOf"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#propertyChainAxiom"/>
         <owl:annotatedTarget rdf:parseType="Collection">
             <rdf:Description>
-                <owl:inverseOf rdf:resource="http://www.w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
+                <owl:inverseOf rdf:resource="http://w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
             </rdf:Description>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp2"/>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#subEventOf"/>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#freshProp3"/>
-            <rdf:Description rdf:about="http://www.w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp2"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#subEventOf"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#freshProp3"/>
+            <rdf:Description rdf:about="http://w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
         </owl:annotatedTarget>
         <DASE_RULE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R2___:Event(?x) ^ :hasSpatioTemporalExtent(?x,?w) ^ :subEventOf(?x,?y) ^ :Event(?y) ^ :hasSpatioTemporalExtent(?y,?z) -&gt; :subSpatioTemporalExtentOf(?w,?z)___</DASE_RULE>
     </owl:Axiom>
@@ -151,99 +150,68 @@
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#Thing -->
+    <!-- http://w3id.org/daselabpatterncollection/event#Event -->
 
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <owl:Class rdf:about="http://w3id.org/daselabpatterncollection/event#Event">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#hasInformationObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3id.org/daselabpatterncollection/event#InformationObject"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/daselabpatterncollection/event#SpatioTemporalExtent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3id.org/daselabpatterncollection/event#SpatioTemporalExtent"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/daselabpatterncollection/event#ParticipantRole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3id.org/daselabpatterncollection/event#ParticipantRole"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#subEventOf"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3id.org/daselabpatterncollection/event#Event"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.w3id.org/daselabpatterncollection/event#Event -->
-
-    <owl:Class rdf:about="http://www.w3id.org/daselabpatterncollection/event#Event">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3id.org/daselabpatterncollection/event#SpatioTemporalExtent"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3id.org/daselabpatterncollection/event#ParticipantRole"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#freshProp1"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#freshProp1"/>
                 <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#freshProp2"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#freshProp2"/>
                 <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#freshProp3"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#freshProp3"/>
                 <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.w3id.org/daselabpatterncollection/event#Event"/>
+        <owl:annotatedSource rdf:resource="http://w3id.org/daselabpatterncollection/event#Event"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#freshProp1"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#freshProp1"/>
                 <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
             </owl:Restriction>
         </owl:annotatedTarget>
         <DASE_RULE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R1___:Event(?x) ^ :providesParticipantRole(?x,?p) ^ :subEventOf(?x,?y) -&gt; :providesParticipantRole(?y,?p)___</DASE_RULE>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.w3id.org/daselabpatterncollection/event#Event"/>
+        <owl:annotatedSource rdf:resource="http://w3id.org/daselabpatterncollection/event#Event"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#freshProp2"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#freshProp2"/>
                 <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
             </owl:Restriction>
         </owl:annotatedTarget>
         <DASE_RULE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R2___:Event(?x) ^ :hasSpatioTemporalExtent(?x,?w) ^ :subEventOf(?x,?y) ^ :Event(?y) ^ :hasSpatioTemporalExtent(?y,?z) -&gt; :subSpatioTemporalExtentOf(?w,?z)___</DASE_RULE>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.w3id.org/daselabpatterncollection/event#Event"/>
+        <owl:annotatedSource rdf:resource="http://w3id.org/daselabpatterncollection/event#Event"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#freshProp3"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#freshProp3"/>
                 <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -252,21 +220,52 @@
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#InformationObject -->
+    <!-- http://w3id.org/daselabpatterncollection/event#InformationObject -->
 
-    <owl:Class rdf:about="http://www.w3id.org/daselabpatterncollection/event#InformationObject"/>
+    <owl:Class rdf:about="http://w3id.org/daselabpatterncollection/event#InformationObject"/>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#ParticipantRole -->
+    <!-- http://w3id.org/daselabpatterncollection/event#ParticipantRole -->
 
-    <owl:Class rdf:about="http://www.w3id.org/daselabpatterncollection/event#ParticipantRole"/>
+    <owl:Class rdf:about="http://w3id.org/daselabpatterncollection/event#ParticipantRole"/>
     
 
 
-    <!-- http://www.w3id.org/daselabpatterncollection/event#SpatioTemporalExtent -->
+    <!-- http://w3id.org/daselabpatterncollection/event#SpatioTemporalExtent -->
 
-    <owl:Class rdf:about="http://www.w3id.org/daselabpatterncollection/event#SpatioTemporalExtent"/>
+    <owl:Class rdf:about="http://w3id.org/daselabpatterncollection/event#SpatioTemporalExtent"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#hasInformationObject"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/daselabpatterncollection/event#InformationObject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#hasSpatioTemporalExtent"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/daselabpatterncollection/event#SpatioTemporalExtent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#providesParticipantRole"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/daselabpatterncollection/event#ParticipantRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#subEventOf"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/daselabpatterncollection/event#Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -279,9 +278,9 @@
      -->
 
     <owl:Restriction>
-        <owl:onProperty rdf:resource="http://www.w3id.org/daselabpatterncollection/event#subEventOf"/>
+        <owl:onProperty rdf:resource="http://w3id.org/daselabpatterncollection/event#subEventOf"/>
         <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf rdf:resource="http://www.w3id.org/daselabpatterncollection/event#Event"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/daselabpatterncollection/event#Event"/>
     </owl:Restriction>
 </rdf:RDF>
 
