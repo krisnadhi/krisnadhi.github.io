@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://w3id.org/daselab/onto/spatiotemporal#"
-     xml:base="http://w3id.org/daselab/onto/spatiotemporal"
+<rdf:RDF xmlns="http://w3id.org/daselab/onto/spatiotemporalextent#"
+     xml:base="http://w3id.org/daselab/onto/spatiotemporalextent"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:spatiotemporal="http://w3id.org/daselab/onto/spatiotemporal#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:spatime="http://w3id.org/daselab/onto/spatiotemporalextent#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://w3id.org/daselab/onto/spatiotemporal">
+    <owl:Ontology rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent">
         <owl:imports rdf:resource="http://w3id.org/daselab/onto/trajectory"/>
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"/>
         <cpannotationschema:hasIntent>This pattern models a spatiotemporal extent, i.e., a combination of spatial and temporal extent as a set of generalized trajectories which cannot have temporal overlap. This pattern reuses semantic trajectory pattern as component.</cpannotationschema:hasIntent>
@@ -55,17 +55,17 @@ Where and when did the oceanographic cruise A01132 go?</cpannotationschema:cover
     
 
 
-    <!-- http://w3id.org/daselab/onto/spatiotemporal#hasSpatioTemporalExtent -->
+    <!-- http://w3id.org/daselab/onto/spatiotemporalextent#hasSpatioTemporalExtent -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/spatiotemporal#hasSpatioTemporalExtent">
-        <rdfs:range rdf:resource="http://w3id.org/daselab/onto/spatiotemporal#SpatioTemporalExtent"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent#hasSpatioTemporalExtent">
+        <rdfs:range rdf:resource="http://w3id.org/daselab/onto/spatiotemporalextent#SpatioTemporalExtent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/daselab/onto/spatiotemporal#hasTrajectory -->
+    <!-- http://w3id.org/daselab/onto/spatiotemporalextent#hasTrajectory -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/spatiotemporal#hasTrajectory">
+    <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent#hasTrajectory">
         <owl:equivalentProperty rdf:resource="http://w3id.org/daselab/onto/trajectory#hasTrajectory"/>
     </owl:ObjectProperty>
     
@@ -88,28 +88,28 @@ Where and when did the oceanographic cruise A01132 go?</cpannotationschema:cover
     
 
 
-    <!-- http://w3id.org/daselab/onto/spatiotemporal#SpatioTemporalExtent -->
+    <!-- http://w3id.org/daselab/onto/spatiotemporalextent#SpatioTemporalExtent -->
 
-    <owl:Class rdf:about="http://w3id.org/daselab/onto/spatiotemporal#SpatioTemporalExtent">
+    <owl:Class rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent#SpatioTemporalExtent">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/daselab/onto/spatiotemporal#hasTrajectory"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/daselab/onto/spatiotemporal#Trajectory"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselab/onto/spatiotemporalextent#hasTrajectory"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/daselab/onto/spatiotemporalextent#Trajectory"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/daselab/onto/spatiotemporal#hasTrajectory"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/daselab/onto/spatiotemporal#Trajectory"/>
+                <owl:onProperty rdf:resource="http://w3id.org/daselab/onto/spatiotemporalextent#hasTrajectory"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/daselab/onto/spatiotemporalextent#Trajectory"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/daselab/onto/spatiotemporal#Trajectory -->
+    <!-- http://w3id.org/daselab/onto/spatiotemporalextent#Trajectory -->
 
-    <owl:Class rdf:about="http://w3id.org/daselab/onto/spatiotemporal#Trajectory">
+    <owl:Class rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent#Trajectory">
         <owl:equivalentClass rdf:resource="http://w3id.org/daselab/onto/trajectory#Trajectory"/>
     </owl:Class>
     
