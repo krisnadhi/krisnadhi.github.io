@@ -60,6 +60,8 @@ Where and when did the oceanographic cruise A01132 go?</cpannotationschema:cover
 
     <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent#hasSpatioTemporalExtent">
         <rdfs:range rdf:resource="http://w3id.org/daselab/onto/spatiotemporalextent#SpatioTemporalExtent"/>
+        <rdfs:comment>Property relating anything (thus the domain is trivially owl:Thing and the range is unscoped) to a SpatioTemporalExtent.</rdfs:comment>
+        <rdfs:label>hasSpatioTemporalExtent</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -68,6 +70,8 @@ Where and when did the oceanographic cruise A01132 go?</cpannotationschema:cover
 
     <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent#hasTrajectory">
         <owl:equivalentProperty rdf:resource="http://w3id.org/daselab/onto/trajectory#hasTrajectory"/>
+        <rdfs:comment>Equivalent to trj:hasTrajectory, this property relates anything (including SpatioTemporalExtent) to Trajectory.</rdfs:comment>
+        <rdfs:label>hasTrajectory</rdfs:label>
     </owl:ObjectProperty>
     
 
