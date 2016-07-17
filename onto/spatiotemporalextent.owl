@@ -19,6 +19,7 @@
 Where did all the places in which the 1990 World Chess Championship Match take place and for each of the place, when did it take place?,
 Where and when did the oceanographic cruise A01132 go?</cpannotationschema:coversRequirements>
         <cpannotationschema:scenarios>The World Chess Championship Match 1990 was held in two parts: New York (October 8 to November 7) and Lyons - France (November 26 to December 30).</cpannotationschema:scenarios>
+        <cpannotationschema:hasComponent>Trajectory</cpannotationschema:hasComponent>
         <dc:creator>Adila Krisnadhi, Pascal Hitzler</dc:creator>
         <cpannotationschema:hasComponent rdf:resource="http://w3id.org/daselab/onto/trajectory"/>
         <cpannotationschema:scenarios>A hurricane moves through the spacetime.</cpannotationschema:scenarios>
@@ -103,6 +104,8 @@ Where and when did the oceanographic cruise A01132 go?</cpannotationschema:cover
                 <owl:allValuesFrom rdf:resource="http://w3id.org/daselab/onto/spatiotemporalextent#Trajectory"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>The class that represents the notion of spatiotemporal extent. A spatiotemporal extent is realized as a collection of generalized trajectories that have no temporal overlap.</rdfs:comment>
+        <rdfs:label>SpatioTemporalExtent</rdfs:label>
     </owl:Class>
     
 
@@ -111,6 +114,8 @@ Where and when did the oceanographic cruise A01132 go?</cpannotationschema:cover
 
     <owl:Class rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent#Trajectory">
         <owl:equivalentClass rdf:resource="http://w3id.org/daselab/onto/trajectory#Trajectory"/>
+        <rdfs:comment>The hook to the Trajectory pattern, which acts as a component of the Spatiotemporal Extent pattern.</rdfs:comment>
+        <rdfs:label>Trajectory</rdfs:label>
     </owl:Class>
     
 
