@@ -70,7 +70,7 @@ Where and when did the oceanographic cruise A01132 go?</cpannotationschema:cover
 
     <owl:ObjectProperty rdf:about="http://w3id.org/daselab/onto/spatiotemporalextent#hasTrajectory">
         <owl:equivalentProperty rdf:resource="http://w3id.org/daselab/onto/trajectory#hasTrajectory"/>
-        <rdfs:comment>Equivalent to trj:hasTrajectory, this property relates anything (including SpatioTemporalExtent) to Trajectory.</rdfs:comment>
+        <rdfs:comment>Set to be equivalent to trj:hasTrajectory from the Trajectory pattern, this property relates anything (including SpatioTemporalExtent) to Trajectory.</rdfs:comment>
         <rdfs:label>hasTrajectory</rdfs:label>
     </owl:ObjectProperty>
     
