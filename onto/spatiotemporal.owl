@@ -22,6 +22,7 @@ Where and when did the oceanographic cruise A01132 go?</cpannotationschema:cover
         <dc:creator>Adila Krisnadhi, Pascal Hitzler</dc:creator>
         <cpannotationschema:hasComponent rdf:resource="http://w3id.org/daselab/onto/trajectory"/>
         <cpannotationschema:scenarios>A hurricane moves through the spacetime.</cpannotationschema:scenarios>
+        <cpannotationschema:hasComponent rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:Trajectory"/>
     </owl:Ontology>
     
 
